@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project xmlns:con="http://eviware.com/soapui/config" id="e2117a87-0647-4434-b016-3bdb8e647b42"
+                    activeEnvironment="Default"
+                    name="EnviarCorreo" resourceRoot="" soapui-version="5.5.0" abortOnError="false"
+                    runType="SEQUENTIAL">
+    <con:settings/>
+    <con:interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:RestService"
+                   id="b5b694fe-e58f-47fe-b9cb-653279f19861" wadlVersion="http://wadl.dev.java.net/2009/02"
+                   name="https://qaaccesodigital.grupobancolombia.com" type="rest">
+        <con:settings/>
+        <con:definitionCache type="TEXT" rootPart=""/>
+        <con:endpoints>
+            <con:endpoint>http://localhost:9081</con:endpoint>
+            <con:endpoint>https://qaaccesodigital.grupobancolombia.com</con:endpoint>
+        </con:endpoints>
+        <con:resource name="EnviarCorreo" path="/API.EnvioCorreo/rest/servicio/health"
+                      id="611f912b-8440-41e4-baca-9a0e9824a9c6">
+            <con:settings/>
+            <con:parameters/>
+            <con:method name="EnviarCorreo" id="ac675d81-75ad-43e3-8d1e-fbc9bd097211" method="GET">
+                <con:settings/>
+                <con:parameters/>
+                <con:representation type="REQUEST">
+                    <con:mediaType>application/json</con:mediaType>
+                    <con:params/>
+                </con:representation>
+                <con:representation type="FAULT">
+                    <con:mediaType>application/json;charset=UTF-8</con:mediaType>
+                    <con:status>500</con:status>
+                    <con:params/>
+                    <con:element
+                            xmlns:env="https://qaaccesodigital.grupobancolombia.com/API.EnvioCorreo/rest/servicio/enviarCorreo">
+                        env:Fault
+                    </con:element>
+                </con:representation>
+                <con:representation type="RESPONSE">
+                    <con:mediaType>application/json;charset=UTF-8</con:mediaType>
+                    <con:status>200</con:status>
+                    <con:params/>
+                    <con:element
+                            xmlns:env="https://qaaccesodigital.grupobancolombia.com/API.EnvioCorreo/rest/servicio/enviarCorreo">
+                        env:Response
+                    </con:element>
+                </con:representation>
+                <con:representation type="RESPONSE">
+                    <con:mediaType xsi:nil="true"/>
+                    <con:status>0</con:status>
+                    <con:params/>
+                    <con:element>data</con:element>
+                </con:representation>
+                <con:representation type="RESPONSE">
+                    <con:mediaType xsi:nil="true"/>
+                    <con:status>0</con:status>
+                    <con:params/>
+                    <con:element>data</con:element>
+                </con:representation>
+                <con:representation type="RESPONSE">
+                    <con:mediaType xsi:nil="true"/>
+                    <con:status>0</con:status>
+                    <con:params/>
+                    <con:element>data</con:element>
+                </con:representation>
+                <con:representation type="RESPONSE">
+                    <con:mediaType xsi:nil="true"/>
+                    <con:status>0</con:status>
+                    <con:params/>
+                    <con:element>data</con:element>
+                </con:representation>
+                <con:representation type="RESPONSE">
+                    <con:mediaType xsi:nil="true"/>
+                    <con:status>0</con:status>
+                    <con:params/>
+                    <con:element>data</con:element>
+                </con:representation>
+                <con:representation type="RESPONSE">
+                    <con:mediaType xsi:nil="true"/>
+                    <con:status>0</con:status>
+                    <con:params/>
+                    <con:element>data</con:element>
+                </con:representation>
+                <con:representation type="FAULT">
+                    <con:mediaType>text/html</con:mediaType>
+                    <con:status>503</con:status>
+                    <con:params/>
+                    <con:element>html</con:element>
+                </con:representation>
+                <con:request name="enviarCorreo" id="6d515a5d-ada3-40d4-819b-a43e2e2943c8" mediaType="application/json"
+                             postQueryString="false">
+                    <con:settings>
+                        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/>
+                        </con:setting>
+                    </con:settings>
+                    <con:endpoint>https://qaaccesodigital.grupobancolombia.com</con:endpoint>
+                    <con:request/>
+                    <con:originalUri>
+                        https://qaaccesodigital.grupobancolombia.com/API.EnvioCorreo/rest/servicio/enviarCorreo
+                    </con:originalUri>
+                    <con:credentials>
+                        <con:authType>No Authorization</con:authType>
+                    </con:credentials>
+                    <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+                    <con:jmsPropertyConfig/>
+                    <con:parameters/>
+                </con:request>
+            </con:method>
+        </con:resource>
+    </con:interface>
+    <con:testSuite id="0333e12f-abaa-4e88-b2ac-a78ab07ca643" name="EnviarCorreo">
+        <con:description>TestSuite generated for REST Service [https://qaaccesodigital.grupobancolombia.com]
+        </con:description>
+        <con:settings/>
+        <con:runType>SEQUENTIAL</con:runType>
+        <con:testCase id="7d9c2f21-d7af-476b-8fdb-5988cb20a06e" failOnError="true" failTestCaseOnErrors="true"
+                      keepSession="false" maxResults="0" name="EnviarCorreo TestCase" searchProperties="true">
+            <con:description>TestCase generated for REST Resource [EnviarCorreo] located at
+                [/API.EnvioCorreo/rest/servicio/health]
+            </con:description>
+            <con:settings/>
+            <con:testStep type="restrequest" name="enviarCorreo" id="23fb21c8-4785-4be0-a8d7-0cfded6a75e2">
+                <con:settings/>
+                <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            service="https://qaaccesodigital.grupobancolombia.com"
+                            resourcePath="/API.EnvioCorreo/rest/servicio/health"
+                            methodName="EnviarCorreo" xsi:type="con:RestRequestStep">
+                    <con:restRequest name="enviarCorreo" id="6d515a5d-ada3-40d4-819b-a43e2e2943c8"
+                                     mediaType="application/json" postQueryString="false">
+                        <con:settings>
+                            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+                        </con:settings>
+                        <con:endpoint>https://qaaccesodigital.grupobancolombia.com</con:endpoint>
+                        <con:request>[
+                            {
+                            "clave": "FWK_ENVIAR_CORREO_ARCHIVO1",
+                            "object": ""
+                            },
+                            {
+                            "clave": "FWK_ENVIAR_CORREO_PARA",
+                            "object": "ventasdigitalesbc@gmail.com"
+                            },
+                            {
+                            "clave": "FWK_ENVIAR_CORREO_NOMBRE_CLIENTE",
+                            "object": "CARLOS"
+                            },
+                            {
+                            "clave": "FWK_ENVIAR_CORREO_DOCUMENTO",
+                            "object": "107723400232"
+                            },
+                            {
+                            "clave": "DOCUMENTO_PDF",
+                            "object": ""
+                            },
+                            {
+                            "clave": "CREDITO_NUMERO",
+                            "object": "34323233"
+                            },
+                            {
+                            "clave": "PLAZO_CREDITO",
+                            "object": "59"
+                            },
+                            {
+                            "clave": "CUENTA_DEBITO",
+                            "object": "40671119007"
+                            },
+                            {
+                            "clave": "EMAIL",
+                            "object": "ventasdigitalesbc@gmail.com"
+                            },
+                            {
+                            "clave": "VALOR_DESEMBOLSO",
+                            "object": "5.000.000"
+                            },
+                            {
+                            "clave": "PERIODICIDAD_PAGO",
+                            "object": "Mensual"
+                            },
+                            {
+                            "clave": "TIPO_PRODUCTO",
+                            "object": "3"
+                            },
+                            {
+                            "clave": "VALOR_CUOTA",
+                            "object": "155.849"
+                            },
+                            {
+                            "clave": "FECHA_DESEMBOLSO",
+                            "object": "2018-11-26"
+                            },
+                            {
+                            "clave": "DIA_PAGO_SIGUIENTE",
+                            "object": 26
+                            },
+                            {
+                            "clave": "TASA_FIJA_NOMINAL",
+                            "object": "25,199"
+                            },
+                            {
+                            "clave": "FECHA_PRIMER_PAGO",
+                            "object": "2018-12-26"
+                            },
+                            {
+                            "clave": "NOMBRE",
+                            "object": "CARLOS"
+                            },
+                            {
+                            "clave": "NO_DOCUMENTO",
+                            "object": "107723400232"
+                            },
+                            {
+                            "clave": "FWK_ENVIAR_CORREO_IMAGENES",
+                            "valor":
+                            "mail1.jpg,mail2.jpg,mail3.jpg,mail4.jpg,mail5.jpg,fb.jpg,tw.jpg,link.jpg,instragram.jpg,youtube.jpg"
+                            },
+                            {
+                            "clave": "FWK_ENVIAR_CORREO_ASUNTO",
+                            "valor": "FWK_ENVIAR_CORREO_ASUNTO_LIBREINVERSION"
+                            },
+                            {
+                            "clave": "FWK_ENVIAR_CORREO_RUTA_PLANTILLA",
+                            "valor": "FWK_ENVIAR_CORREO_RUTA_PLANTILLA_LIBREINVERSION"
+                            }
+                            ]
+                        </con:request>
+                        <con:originalUri>
+                            https://qaaccesodigital.grupobancolombia.com/API.EnvioCorreo/rest/servicio/enviarCorreo
+                        </con:originalUri>
+                        <con:assertion type="Valid HTTP Status Codes" id="63074ec1-e728-4727-8be5-871c43d42911"
+                                       name="Valid HTTP Status Codes">
+                            <con:configuration>
+                                <codes>200</codes>
+                            </con:configuration>
+                        </con:assertion>
+                        <con:credentials>
+                            <con:authType>No Authorization</con:authType>
+                        </con:credentials>
+                        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+                        <con:jmsPropertyConfig/>
+                        <con:parameters/>
+                    </con:restRequest>
+                </con:config>
+            </con:testStep>
+            <con:properties/>
+        </con:testCase>
+        <con:properties/>
+    </con:testSuite>
+    <con:properties/>
+    <con:wssContainer/>
+    <con:oAuth2ProfileContainer/>
+    <con:oAuth1ProfileContainer/>
+</con:soapui-project>

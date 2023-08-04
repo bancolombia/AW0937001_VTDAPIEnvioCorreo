@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" packages="co.com.bancolombia.logging.technical">
+    <Appenders>
+        <Console name="JSON_TECH_APPENDER" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss} [API.EnvioCorreo] [IdSession : %X{sessionId}] %-5p %c:%L - %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="${env:LOG4J_LEVEL:-TRACE}" additivity="false">
+            <appender-ref ref="JSON_TECH_APPENDER"/>
+        </Root>
+    </Loggers>
+</Configuration>

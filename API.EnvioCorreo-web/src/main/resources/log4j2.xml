@@ -1,0 +1,34 @@
+<Configuration status="warn" name="VentasDigitales"
+               packages="">
+
+    <Properties>
+        <Property name="baseDir">/logdirr/bancolombia/portalVentasDigitales</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="[IBM-BC-PORTAL-PROCESO-PORTAL-VENTAS-DIGITALES] %d{yyyy-MM-dd HH:mm:ss} [API.EnvioCorreo] [IdSession : %X{sessionId}] %-5p %c:%L - %m%n"/>
+        </Console>
+        <RollingFile name="RollingFile" fileName="${baseDir}/apiEnvioCorreo.log"
+                     filePattern="${baseDir}/$${date:yyyy-MM}/apiEnvioCorreo-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout
+                    pattern="[IBM-BC-PORTAL-PROCESO-PORTAL-VENTAS-DIGITALES] %d{yyyy-MM-dd HH:mm:ss} [API.EnvioCorreo] [IdSession : %X{sessionId}] %-5p %c:%L - %m%n"/>
+            <CronTriggeringPolicy schedule="0 0 0 ? * * *"/>
+            <DefaultRolloverStrategy>
+                <Delete basePath="${baseDir}" maxDepth="2">
+                    <IfFileName glob="*/apiEnvioCorreo-*.log.gz"/>
+                    <IfLastModified age="30d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <!--AppenderRef ref="RollingFile" /-->
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

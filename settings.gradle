@@ -1,0 +1,3 @@
+rootProject.name = 'API.EnvioCorreo'
+include ':API.EnvioCorreo-service'
+include ':API.EnvioCorreo-web'

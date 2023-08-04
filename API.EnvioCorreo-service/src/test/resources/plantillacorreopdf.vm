@@ -1,0 +1,592 @@
+<!-- Cut by Quadi India development name Deepak Solanki -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>POR DEFINIR</title>
+<style type="text/css">
+      body {
+       -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+      }
+      img {
+      border: 0 !important;
+      outline: none !important;
+      }
+	  p {
+	Margin: 0px !important;
+	padding: 0px !important;
+		}
+      table {
+      border-collapse: collapse;
+      mso-table-lspace: 0px;
+      mso-table-rspace: 0px;
+      }
+      td {
+      border-collapse: collapse;
+      mso-line-height-rule: exactly;
+      }
+      a, span {
+      mso-line-height-rule: exactly;
+      }
+      .ExternalClass * {
+      line-height: 100%;
+      }
+      .em_white a {
+      color: #ffffff;
+      text-decoration: none;
+      }
+	  .em_yelloe a{
+	   color: #f2ca30;
+      text-decoration: none;
+	  }
+	  .em_links a{
+	   color: #000000;
+      text-decoration:underline;
+	  }
+      .em_black a {
+      color: #000000;
+      text-decoration:underline;
+      }
+      .em_grey a {
+      color: #666666;
+      text-decoration:none;
+      }
+	   .em_grey1 a {
+      color: #4c4c4c;
+      text-decoration:none;
+      }
+      .em_applewhiltelink a {
+      color: inherit !important;
+      text-decoration: none !important;
+      }
+	  span.MsoHyperlink {
+	mso-style-priority: 99;
+	color: inherit;
+}
+span.MsoHyperlinkFollowed {
+	mso-style-priority: 99;
+	color: inherit;
+}
+.button-wrapper button { margin: 0; }
+
+
+
+      @media only screen and (min-width:480px) and (max-width:600px) {
+        div[class=hide_disktop] {
+         display: table !important;
+         float: none !important;
+         width: 100% !important;
+         overflow: visible !important;
+         height: auto !important;
+         }
+      table[class=em_wrapper] {
+      width: 100% !important;
+	  height:auto!important;
+      }
+      img[class=em_full_img]{
+      width:100% !important;
+      height:auto !important;
+	  max-width:none !important;
+      }
+      td[class=em_hide],table[class=em_hide],span[class=em_hide],br[class=em_hide] {
+      display: none !important;
+      }
+      td[class=em_pad_side]{
+      padding-right:15px !important;
+      padding-left:15px !important;
+      }
+      td[class=em_width]{
+      width:15px !important;
+      }
+      td[class=em_pad_top],img[class=em_pad_top]{ 
+      padding-top:30px !important;
+      }
+      td[class=em_pad_bottom]{
+      padding-bottom:20px !important;
+      }
+        td[class=em_height]{
+      height:20px !important;
+	  font-size:1px !important;
+	  line-height:1px !important;
+      }
+      td[class=em_t_cent] {
+      text-align:center !important;
+      }
+     td[class=em_head]{
+	    padding-left:15px !important;
+		font-size:16px !important;
+		line-height:20px  !important;
+		height:50px  !important;
+		padding-right:15px  !important;
+	  }
+	  td[class=em_h30]{
+	height:30px;
+	}
+		td[class=em_ht]{
+	 height:auto !important;
+	}
+      }
+      @media only screen and (max-width:480px) {
+        div[class=hide_disktop] {
+         display: table !important;
+         float: none !important;
+         width: 100% !important;
+         overflow: visible !important;
+         height: auto !important;
+         }
+      span[class=em_text],td[class=em_text]{
+      	font-size: 16px !important;
+      	line-height: 21px !important;
+      }
+      a[class=a_txt]{
+      	font-size: 18px !important;
+      	line-height: 22px !important;
+      	text-decoration: none !important;
+      	color: #000000 !important;
+      }
+      table[class=em_wrapper] {
+      width: 100% !important;
+	  height:auto!important;
+      }
+      td[class=em_hide],table[class=em_hide],span[class=em_hide],br[class=em_hide] {
+      display: none !important;
+      }
+      img[class=em_full_img]{
+      width:100% !important;
+      height:auto !important;
+	  max-width:none !important;
+      }
+      td[class=em_pad_side]{
+      padding-right:15px !important;
+      padding-left:15px !important;
+      }
+      td[class=em_width]{
+      width:10px !important;
+      }
+      td[class=em_height]{
+      height:20px !important;
+	  font-size:1px !important;
+	  line-height:1px !important;
+      }
+      td[class=em_pad_top],img[class=em_pad_top]{ 
+      padding-top:20px !important;
+      }
+      td[class=em_pad_bottom]{
+      padding-bottom:20px !important;
+      }
+      td[class=em_t_cent] {
+      text-align:center !important;
+      }
+
+	  img[class=em_wrapper1]{
+	   width:290px !important;
+	   height:auto !important;
+	  }
+	
+	
+	
+	     table[class=em_wrapper1] {
+      width:290px !important;
+	  text-align:center;
+      }
+	  td[class=em_head]{
+	    padding-left:15px !important;
+	  }
+	td[class=em_h30]{
+	height:30px;
+	}
+    table[class=cta],img[class=cta]{
+	 width:270px !important;
+	 height:auto !important;
+	 
+	}
+	td[class=em_ht]{
+	 height:auto !important;
+	}
+	td[class=em_combo],span[class=em_combo]{
+	 font-size:18px !important;
+	 line-height:20px !important;
+	}
+	td[class=em_links],a[class=em_links]{
+	 font-size:12px !important;
+	 line-height:15px !important;
+	}
+      }
+    </style>
+</head>
+<body style="margin:0px; padding:0px;"  bgcolor="#ffffff">
+
+<img src="https://www.grupobancolombia.com/wcm/connect/www.grupobancolombia.com15880/ee5221ae-1e99-4529-876c-381b48746d9b/desk-01.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_K9HC1202PGD140QU35SB3R10O3-ee5221ae-1e99-4529-876c-381b48746d9b-nzHAqxf" border="0" />
+
+<table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <!-- Emailer Starts Here-->
+    <td align="center"><table style="table-layout:fixed;" width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+        <tr>
+          <td class="em_hide" height="1" style="line-height:0px; font-size:0px;">
+          <img src="cid:IMAGE_1" height="1" width="600" style="display:block; width:600px; min-width:600px;max-height:1px;" border="0" />
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td class="em_head"  align="left" valign="middle" height="25" bgcolor="#ffd209" style="font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#000000;padding-left:25px;">Conoce los beneficios de tu Tarjeta de Crédito Bancolombia.</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" class="em_hide"><img class="em_full_img" src="cid:IMAGE_2" width="600" height="251" style="display:inline;vertical-align:middle;" border="0"/></td>
+              </tr>
+              <!-- Mobile_Content -->
+                           <tr>
+                              <td>
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <!--[if !mso 9]><!-->
+                                    <tr>
+                                       <td height="0">
+                                          <div class="hide_disktop" style="display:none;width:0;overflow:hidden;max-height:0!important">
+                                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                   <td align="center" valign="top"><img class="em_full_img" src="cid:IMAGE_3" width="598" height="400" style="display:inline;vertical-align:middle;" border="0"/></td>
+                                                </tr>
+                                             </table>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <!--<![endif]-->
+                                 </table>
+                              </td>
+                           </tr>
+                           <!-- //Mobile_Content -->
+              <tr>
+                <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="60" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          <tr>
+                            <td height="25">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#000000;font-weight: bold;">$FWK_ENVIAR_CORREO_NOMBRE_CLIENTE,<br /><br />
+                              <span style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#5b5b5f;font-weight: normal;">Ya puedes darte gusto comprando lo que más quieres con tu </span>
+                            </td>
+                          </tr>
+                        </table></td>
+                      <td width="60" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="12" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+               <!-- bloque nombre y cupo primera tarjeta -->
+              <tr>
+                <td align="center" valign="top" bgcolor="#edeef0"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="60" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#5b5b5f;font-weight: normal;padding: 11px 0 10px;">Tarjeta de Crédito <span style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#000000;font-weight: bold;padding: 11px 0 10px;">$NOMBRE_PRODUCTO[0]</span>.
+                            </td>
+                          </tr>
+                        </table></td>
+                      <td width="60" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="7" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" bgcolor="#edeef0"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="60" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#5b5b5f;font-weight: normal;padding: 11px 0 10px;">Con un cupo hasta de <span style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#000000;font-weight: bold;padding: 11px 0 10px;">$CUPO_SOLICITADO[0]</span>.
+                            </td>
+                          </tr>
+                        </table></td>
+                      <td width="60" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="25" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+			  <!-- fin bloque nombre y cupo primera tarjeta -->
+
+              <!-- bloque nombre y cupo segunda tarjeta -->
+              #if($NOMBRE_PRODUCTO.size() > 1)
+			  <tr>
+                <td align="center" valign="top" bgcolor="#edeef0"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="60" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#5b5b5f;font-weight: normal;padding: 11px 0 10px;">Tarjeta de Crédito <span style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#000000;font-weight: bold;padding: 11px 0 10px;">$NOMBRE_PRODUCTO[1]</span>.
+                            </td>
+                          </tr>
+                        </table></td>
+                      <td width="60" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="7" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" bgcolor="#edeef0"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="60" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#5b5b5f;font-weight: normal;padding: 11px 0 10px;">Con un cupo hasta de <span style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#000000;font-weight: bold;padding: 11px 0 10px;">$CUPO_SOLICITADO[1]</span>.
+                            </td>
+                          </tr>
+                        </table></td>
+                      <td width="60" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="25" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+			  
+			  #end
+              <!-- fin bloque nombre y cupo segunda tarjeta -->
+              <tr>
+                <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="60" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:20px;color:#5b5b5f;font-weight: normal;">Para abrir los documentos adjuntos, digita tu número de cédula cuando te solicite la contraseña.
+                            </td>
+                          </tr>
+                        </table></td>
+                      <td width="60" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="25" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="60" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          
+                          <tr>
+                            <td align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:20px;line-height:25px;color:#ffd209;font-weight: bold;text-transform: uppercase;">Estos son sus beneficios:</td>
+                          </tr>
+                        </table></td>
+                      <td width="60" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="28" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top">
+				<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                    <tr>
+                      <td align="center" valign="top" bgcolor="#f7f8f8"><table width="300" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                          <tr>
+                            <td align="center" valign="top" class="button-wrapper button" width="300"><img class="em_full_img"  src="cid:CARD_IMAGE_1" width="100%"  style="display:inline;vertical-align:middle;outline:none;margin:0 auto;max-width:300px;" align="texttop" border="0" /></td>
+                          </tr>
+                        </table>
+                        <!--[if gte mso 9]>
+        </td>
+        <td valign="top">
+    <![endif]-->
+                        <table width="300" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" bgcolor="#f2f2f2">
+                          <tr>
+                            <td align="center" valign="top" height="276" class="em_ht" bgcolor="#f7f8f8">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f2">
+                                <tr>
+                                  <td height="30" style="font-size:1px;line-height:1px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                      <tr>
+                                        <td width="45">&nbsp;</td>
+                                        <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+										#foreach( $beneficio in $BENEFICIOS[0] )
+                                          <tr>
+                                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:18px;color:#fcd106;font-weight: bold;text-transform: uppercase;">•</td>
+                                            <td width="5">&nbsp;</td>
+                                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:18px;color:#5b5b5f;font-weight: normal;">$beneficio</td>
+                                          </tr>
+                                          <tr>
+                                            <td height="18" style="font-size:1px;line-height:1px;">&nbsp;</td>
+                                          </tr>
+										#end
+                                        </table></td>
+                                        <td width="45">&nbsp;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td height="30" style="font-size:1px;line-height:1px;">&nbsp;</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+				  </td>
+              </tr>
+              
+              <tr>
+                <td height="30" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+			   <!-- Si hay beneficios de una segunda tarjeta -->
+                    #if($BENEFICIOS.size() > 1)
+					<tr>
+                <td align="center" valign="top">
+				<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                    <tr>
+                      <td align="center" valign="top" bgcolor="#f7f8f8"><table width="300" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                          <tr>
+                            <td align="center" valign="top" class="button-wrapper button" width="300"><img class="em_full_img"  src="cid:CARD_IMAGE_2" width="100%"  style="display:inline;vertical-align:middle;outline:none;margin:0 auto;max-width:300px;" align="texttop" border="0" /></td>
+                          </tr>
+                        </table>
+                        <!--[if gte mso 9]>
+        </td>
+        <td valign="top">
+    <![endif]-->
+                        <table width="300" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" bgcolor="#f2f2f2">
+                          <tr>
+                            <td align="center" valign="top" height="276" class="em_ht" bgcolor="#f7f8f8">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f2">
+                                <tr>
+                                  <td height="30" style="font-size:1px;line-height:1px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                      <tr>
+                                        <td width="45">&nbsp;</td>
+                                        <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+										#foreach( $beneficio in $BENEFICIOS[1] )
+                                          <tr>
+                                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:18px;color:#fcd106;font-weight: bold;text-transform: uppercase;">•</td>
+                                            <td width="5">&nbsp;</td>
+                                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:18px;color:#5b5b5f;font-weight: normal;">$beneficio</td>
+                                          </tr>
+                                          <tr>
+                                            <td height="18" style="font-size:1px;line-height:1px;">&nbsp;</td>
+                                          </tr>
+										#end
+                                        </table></td>
+                                        <td width="45">&nbsp;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td height="30" style="font-size:1px;line-height:1px;">&nbsp;</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+				  </td>
+              </tr>
+              
+              <tr>
+                <td height="30" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+			 #end
+			   <!-- fin condición segunda tarjeta -->
+              <tr>
+                <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="60" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          <tr>
+                            <td class="em_text" align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:17px;line-height:22px;color:#5b5b5f;font-weight: bold;">En los próximos días recibirás tu Tarjeta de Crédito Bancolombia y podrás comenzar a disfrutar nuestras ofertas en viajes, restaurantes, entretenimiento. Los comercios aliados irán variando.</td>
+                          </tr>
+                        </table></td>
+                      <td width="60" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="40" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top"><a href="www.grupobancolombia.com/ofertas" target="_blank"><img src="cid:IMAGE_4" width="300" height="50" style="display:inline;vertical-align:middle;" border="0" /></a> </td>
+              </tr>
+              <tr>
+                <td height="25" style="font-size:1px;line-height:1px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" class="button-wrapper"><img class="em_full_img" src="cid:IMAGE_5" width="600" height="220" style="display:inline;vertical-align:middle;" border="0" /> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                      <td width="55" class="em_width">&nbsp;</td>
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          <tr>
+                            <td height="25" class="em_height">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#6e6e71;line-height:16px;"> Bancolombia nunca te solicitará tus datos financieros como usuarios, claves, números de tarjetas 
+                              de crédito con sus códigos de seguridad y fechas de vencimiento mediante vínculos de correo electrónico.</td>
+                          </tr>
+                          <tr>
+                            <td  height="15" style="font-size:1px;line-height:1px;">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#6e6e71;line-height:16px;">Si tienes alguna inquietud puedes contactarnos en nuestras líneas de atención telefónica: <br />
+                              Bogotá <a href="tel:343 00 00" style="text-decoration:none;color:#184889;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:10px;line-height:16px;">343 00 00</a> – Medellín <a href="tel:510 90 00" style="text-decoration:none;color:#184889;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:10px;line-height:16px;">510 90 00</a> – Cali <a href="tel:554 05 05" style="text-decoration:none;color:#184889;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:10px;line-height:16px;">554 05 05</a> <br />
+                              Barranquilla <a href="tel:361 88 88" style="text-decoration:none;color:#184889;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:10px;line-height:16px;">361 88 88</a> – Bucaramanga <a href="tel:697 25 25 " style="text-decoration:none;color:#184889;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:10px;line-height:16px;">697 25 25 </a> – Cartagena <a href="tel:693 44 00" style="text-decoration:none;color:#184889;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:10px;line-height:16px;">693 44 00</a> <br />
+                              Resto del país <a href="tel:01800 09 12345" style="text-decoration:none;color:#184889;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:10px;line-height:16px;">01800 09 12345</a> <br />
+                              Sede principal Cra. 48 Nro. 26-85 Torre Norte <br />
+                              Medellín – Colombia <br />
+                              <br />
+                              <a xt="SPONECLICKOPTOUT" href="#SPONECLICKOPTOUT" target="_blank" style="text-decoration:underline;color:#184889;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:12px;line-height:15px;">Cancelar suscripción</a></td>
+                          </tr>
+                          <tr>
+                            <td class="h20" height="30" style="font-size:1px;line-height:1px;">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top"><table width="342" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper1">
+                                <tr>
+                                  <td align="left" valign="top" class="button-wrapper"><a href="https://www.facebook.com/bancolombia/?fref=ts" target="_blank"><img class="em_full_img" src="cid:IMAGE_6" width="46" height="44" style="display:inline;vertical-align:middle;" border="0" /></a></td>
+                                  <td align="left" valign="top" class="button-wrapper"><a href="https://twitter.com/Bancolombia?lang=es" target="_blank"><img class="em_full_img" src="cid:IMAGE_7" width="82" height="44" style="display:inline;vertical-align:middle;" border="0" /></a></td>
+                                  <td align="left" valign="top" class="button-wrapper"><a href="https://co.linkedin.com/company/bancolombia" target="_blank"><img class="em_full_img" src="cid:IMAGE_8" width="81" height="44" style="display:inline;vertical-align:middle;" border="0" /></a></td>
+                                  <td align="left" valign="top" class="button-wrapper"><a href="https://www.instagram.com/bancolombia/" target="_blank"><img class="em_full_img" src="cid:IMAGE_9" width="82" height="44" style="display:inline;vertical-align:middle;" border="0" /></a></td>
+                                  <td align="left" valign="top" class="button-wrapper"><a href=" https://www.youtube.com/user/GrupoBancolombia" target="_blank"><img class="em_full_img" src="cid:IMAGE_10" width="51" height="44" style="display:inline;vertical-align:middle;" border="0" /></a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td height="50" class="em_height">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                      <td width="55" class="em_width">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <!-- Emailer Ends Here //-->
+</table>
+<div style="display:none; white-space:nowrap; font:20px courier; color:#ffffff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+</body>
+</html>
